@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  background-color: rgb(63, 63, 63);
+}
+
+header {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-content {
+  height: 35px;
+  width: 90px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.nav-content:first-of-type {
+  background-color: pink;
+  color: rgb(215, 0, 36);
+}
+
+header img:first-of-type {
+  margin-left: 30px;
+  width: 5rem;
+}
+
+header img:last-of-type {
+  width: 2rem;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.vertical-bar {
+  height: 50px;
+  border-left: 1px solid rgb(212, 212, 212);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bg-image img {
+  width: 100%;
+}
+
+.bg-image {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.img-credit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  font-size: .75rem;
+  color: rgb(197, 197, 197);
+}
+
+.img-credit a {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+}
+
+.img-filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 4px;
+  background-color: rgba(0, 0, 0, 0.401);
+  z-index: 1;
+}
+
+.download-container {
+  background-color: antiquewhite;
+  height: 350px;
+  position: relative;
+  bottom: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.d-title {
+  font-size: 2.25rem;
+  margin-top: 50px;
+  color: rgb(255, 0, 43);
+}
+
+.download-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-content p {
+  width: 60%;
+  text-align: center;
+}
+
+.download-options {
+  margin-top: 30px;
+}
+
+.google-play {
+  height: 58px;
+  position: relative;
+  top: 8px
+}
+
+footer {
+  height: 100px;
+  position: relative;
+  bottom: 4px;
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+}
+
+.socials img {
+  width: 2rem;
+}
+
+.socials div {
+  background-color: rgb(105, 105, 105);
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.socials div:hover {
+  cursor: pointer;
+}
+
+.welcome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 40%;
+}
+
+.welcome h1 {
+  font-size: 2.5rem;
+  color: white;
+  z-index: 2;
+}
+
+.welcome button {
+  width: 120px;
+  height: 35px;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(255, 0, 43);
+  border: 0;
+  border-radius: 3px;
+  z-index: 2;
+}
+
+
+
+
