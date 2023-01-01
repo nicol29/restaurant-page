@@ -20,6 +20,16 @@ const loadHomePage = (currentTab) => {
 
 export default loadHomePage;
 
+export const loadOtherElements = () => {
+  let contentContainer = document.querySelector('#content');
+
+  let bgImageSection = createBackgroundImage();
+  let downloadSection = createDownloadContent();
+  let footerSection = createFooter();
+
+  contentContainer.append(bgImageSection, downloadSection, footerSection);
+}
+
 export const createHeader = (currentTab) => {
   let header = document.createElement('header');
 

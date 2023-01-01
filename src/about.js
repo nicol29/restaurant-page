@@ -1,12 +1,12 @@
-import { createHeader, createFooter } from "./home";
+import { createFooter } from "./home";
 
-const loadAboutPage = (currentTab) => {
+const loadAboutPage = () => {
   let contentContainer = document.querySelector('#content');
 
-  let headerSection = createHeader(currentTab);
+  
   let footerSection = createFooter();
 
-  contentContainer.append(headerSection);
+  contentContainer.append(footerSection);
 }
 
 export default loadAboutPage;
